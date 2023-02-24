@@ -20,7 +20,7 @@
 		</div>
 		<div class="cp-block">
 			<a href="https://mgok.mskobr.ru/" target="_blank">
-				<p class="cprght">© ГБПОУ «Московский государственный<br>образовательный комплекс», 2023</p>
+				<p class="cprght">© ГБПОУ «Московский государственный образовательный комплекс», 2023</p>
 			</a>
 		</div>
     </div>
