@@ -59,7 +59,7 @@ require_once('header.php');
 </div>
 <div class="telo"></div>
 
-<?php 
+<?php
 
 $_SESSION['days'] = array("Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье");
 
@@ -115,7 +115,7 @@ $_SESSION['ar'] = $ar;
 $arr = $_SESSION['ar'];
 require_once('footer.php');
 ?>
-
+-->
 
 </body>
 </html>

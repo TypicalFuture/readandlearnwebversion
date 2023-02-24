@@ -21,8 +21,7 @@ $crnt -= 1;
             if (mysqli_num_rows($result) > 0){
                 $user = mysqli_fetch_assoc($result);
                 $_SESSION['dostup'] = 1;
-                $_SESSION['user'] = [
-                "username" => $user['username'], "full_name" => $user['teacherName']];
+                $_SESSION['user'] = ["username" => $user['username']];
                     header('Location: schedule.php');
             }
             else{
@@ -62,11 +61,10 @@ $crnt -= 1;
             }
         }
         else{
-           //
+
         }
     }
-        /**/
-echo'
+echo '
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -74,13 +72,13 @@ echo'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Мгок онлайн, расписание занятий ГБПОУ МГОК">
     <link rel="shortcut icon" href="icons/icon.svg" />
-    <link rel="stylesheet" type="text/css" href="css/author.php">
+    <link rel="stylesheet" type="text/css" href="css/author.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <title>Добро пожаловать на сайт</title>
 </head>
 <body>
     <div class="container">
-        <form class="form-signinl" action="#'.$crnt.'" method="POST">
+        <form class="form-signinl" action="#' .$crnt.'" method="POST">
             <h2 class="reg">Авторизация</h2>
             <div class="inputtt">
                 <p>Логин:</p>

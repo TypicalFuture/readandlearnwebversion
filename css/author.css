@@ -1,7 +1,3 @@
-<?php
-    header('Content-type: text/css; charser: UTF-8');
-?>
-
 @font-face{
     font-family: "Intro";
     src: url("../schrifti/Intro-Bold.otf") format("opentype");
