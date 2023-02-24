@@ -5,7 +5,6 @@ if(isset($_SESSION['user']))
 require('php-scripts/connect.php');
 $crnt = date("N");
 $crnt -= 1;
-$connection = 0;
 //echo $_SERVER['HTTP_REFERER'];
     if(isset($_POST['username']) and isset($_POST['password']))
     {
@@ -76,7 +75,7 @@ echo'
     <meta name="description" content="Мгок онлайн, расписание занятий ГБПОУ МГОК">
     <link rel="shortcut icon" href="icons/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/author.php">
-    <title>Вход</title>
+    <title>Добро пожаловать на сайт Read and Learn</title>
 </head>
 <body>
     <div class="container">
