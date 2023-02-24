@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "Intro";
+    src: url("../schrifti/Intro-Bold.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Regular";
+    src: url("../schrifti/Intro-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Light";
+    src: url("../schrifti/Intro-Light.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Black";
+    src: url("../schrifti/Intro-Black.otf") format("opentype");
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+
+}
+.exit-btn{
+
+}

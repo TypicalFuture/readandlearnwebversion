@@ -1,0 +1,158 @@
+@font-face{
+    font-family: "Intro";
+    src: url("../schrifti/Intro-Bold.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Regular";
+    src: url("../schrifti/Intro-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Light";
+    src: url("../schrifti/Intro-Light.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Black";
+    src: url("../schrifti/Intro-Black.otf") format("opentype");
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/*FOOTER START*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 124px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(229, 229, 229, 0.42);
+    margin-bottom: 0;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.foot-cont{
+    width: 1140px;
+    display: flex;
+}
+
+.cp-block{
+    display: flex;
+    margin: 0 0 0 auto;
+    align-items: flex-end;
+}
+
+.cp-block a{
+    text-decoration: none;
+}
+
+.cp-block a:hover{
+    text-decoration: underline;
+}
+
+.cprght{
+    font-family: "Intro-Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #6E6E6C;
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+.soc{
+    width: 30px;
+    height: 30px;
+}
+
+.soc:nth-child(3){
+    width: 37px;
+}
+
+.sign{
+    font-family: "Intro-Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #6E6E6C;
+    margin-left: 8px;
+}
+
+.soc-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.soc-cont a{
+    text-decoration: none;
+}
+.soc-cont:nth-child(even){
+    margin-left: 24px;
+}
+
+.soc-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.soc-item{
+    display: flex;
+    align-items: center;
+}
+.soc-item:nth-child(odd){
+    margin-bottom: 10px;
+}
+
+/*FOOTER END*/
+
+@media (max-width: 480px) {
+    footer{
+        width: 100%;
+        height: auto;
+    }
+    .foot-cont{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .cp-block{
+        margin-top: 15px;
+        justify-content: center;
+        width: 100%;
+    }
+    .soc-block{
+        justify-content: center;
+        flex-direction: row;
+        
+    }
+    .soc-cont{
+        flex-direction: row;
+    }
+    .soc-cont:nth-child(even){
+        margin-left: 0;
+    }
+    .sign{
+        display: none;
+    }
+    .soc{
+        margin-left: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .cprght{
+        text-align: center;
+        font-size: 12px;
+    }
+
+}

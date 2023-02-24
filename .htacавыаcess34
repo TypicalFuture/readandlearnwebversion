@@ -1,0 +1,18 @@
+AddDefaultCharset UTF-8
+php_value date.timezone 'Europe/Moscow'
+
+# HTID:14193425: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:14193425:
+
+ErrorDocument 404 https://mgok-online.ru//404.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} !^443$
+
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]

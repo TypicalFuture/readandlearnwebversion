@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Intro";
+    src: url("../schrifti/Intro-Bold.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Regular";
+    src: url("../schrifti/Intro-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Light";
+    src: url("../schrifti/Intro-Light.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Black";
+    src: url("../schrifti/Intro-Black.otf") format("opentype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    background: #F3F9FB;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Intro";
+}
+
+.title{
+	font-family: "Intro";
+	font-size: 100px;
+	margin: auto;
+	text-align: center;
+}
+
+.u-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.link{
+	background: linear-gradient(90deg, #2661A6 0%, #409BC2 100%);
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px;
+}
+
+.cont{
+	display: flex;
+	justify-content: center;
+}

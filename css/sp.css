@@ -1,0 +1,200 @@
+@font-face{
+    font-family: "Intro";
+    src: url("../schrifti/Intro-Bold.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Regular";
+    src: url("../schrifti/Intro-Regular.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Light";
+    src: url("../schrifti/Intro-Light.otf") format("opentype");
+}
+@font-face{
+    font-family: "Intro-Black";
+    src: url("../schrifti/Intro-Black.otf") format("opentype");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.t-swp{
+	width: 266px;
+}
+
+.swap{
+	width: 220px;
+}
+
+.t-swap{
+	width: 458px;
+	height: 34px;
+	background: #fcfcfc;
+	font-family: "Intro-Light";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: -0.02em;
+	color: #2E2B1E;
+	outline: none;
+	padding: 4px 10px;
+	border: none;
+	border-bottom: 1px solid #4F80A1;
+}
+
+.t-swap:focus{
+	border: 1px solid #FFD031;
+	height: 33px;
+	padding: 3px 9px 4px 9px;
+}
+
+.t-find{
+	width: 129px;
+    height: 34px;
+    background: linear-gradient(90deg, #2661A6 0%, #409BC2 100%);
+    box-shadow: 10px 10px 20px rgba(229, 229, 229, 0.25);
+    font-family: "Intro-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FEFCFA;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+}
+
+.t-find:hover{
+	background: none;
+	cursor: pointer;
+	border: 1px solid #4F80A1;
+	background-color: #fcfcfc;
+	color: #2E2B1E;
+	width: 127px;
+	height: 32px;
+}
+
+#del-inps{
+	padding-bottom: 10px;
+}
+
+.t-ul{
+	width: 458px;
+	background: #fcfcfc;
+	font-family: "Intro-Light";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: -0.02em;
+	color: #2E2B1E;
+	outline: none;
+	border: none;
+	padding: 4px 0px ;
+	text-decoration: none;
+}
+
+.t-li{
+	list-style: none;
+	cursor: pointer;
+}
+
+.t-li:hover{
+	background: #f2f2f2;
+}
+
+.table-s input{
+	height: 34px;
+	outline: none;
+	margin-top: 10px;
+	border-radius: 0;
+	border: none;
+	border-right: 1px solid #4f80a1;
+	padding: 4px;
+}
+
+.table-s input:nth-child(7n){
+	border-right: none;
+}
+
+.date{
+	width: 128px;
+	height: 34px;
+}
+
+.p-dt{
+	margin-top: 
+}
+
+.t-time{
+	width: 46px;
+}
+
+.days{
+	width: 100%;
+    height: auto;
+    display: grid;
+}
+
+.a-swap{
+	width: 200px;
+	height: 34px;
+	border: none;
+	outline: none;
+	background: linear-gradient(90deg, #2661A6 0%, #409BC2 100%);
+    box-shadow: 10px 10px 20px rgba(229, 229, 229, 0.25);
+    font-family: "Intro-Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #FEFCFA;
+    margin-left: 50px;
+}
+
+.a-swap:hover{
+	background: none;
+	cursor: pointer;
+	border: 1px solid #4F80A1;
+	background-color: #fcfcfc;
+	color: #2E2B1E;
+	width: 198px;
+	height: 34px;
+}
+
+.del{
+	width: 150px;
+	float: right;
+}
+
+.del:hover{
+	background: none;
+	cursor: pointer;
+	border: 1px solid #4F80A1;
+	background-color: #fcfcfc;
+	color: #2E2B1E;
+	width: 148px;
+	height: 34px;
+}
+
+.grp{
+	width: 80px;
+}
+
+.swp-check{
+	width: 208px;
+}
+
+.date{
+	width: 140px;
+}
+
+.t-day{
+	display: none;
+}
