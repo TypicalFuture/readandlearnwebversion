@@ -27,7 +27,7 @@ body{
 footer{
     display: flex;
     justify-content: center;
-    height: 124px;
+    height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(229, 229, 229, 0.42);
     margin-bottom: 0;
@@ -64,7 +64,8 @@ footer{
     letter-spacing: 0.05em;
     color: #6E6E6C;
     text-align: right;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
+    margin-right: 7%;
 }
 
 .soc{
