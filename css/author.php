@@ -73,7 +73,7 @@ p{
     width: 100%;
     height: 30px;
     font-family: "Intro-Regular";
-        //border-radius: 30px;
+    //border-radius: 30px;
     border-style: none;
     border-bottom: solid 1px #2580A3;
     background-color: #fcfcfc;;

@@ -14,8 +14,8 @@ $crnt -= 1;
         $pos_pas = strripos($password, " ");
         $len_usr = strlen($username);
         $len_pas = strlen($password);
-        if((($pos_usr === false) && ($len_usr <= 15)) && (($pos_pas === false) && ($len_pas <= 15))){
-            $query = "SELECT id_role FROM users WHERE username='$username' and password='$password'";
+        if((($pos_usr === false) && ($len_usr <= 25)) && (($pos_pas === false) && ($len_pas <= 15))){
+            $query = "SELECT id_user FROM users WHERE username='$username' and password='$password'";
             $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
             if(mysqli_num_rows($result) > 0)
             if (mysqli_num_rows($result) > 0){
@@ -83,7 +83,7 @@ echo'
             <h2 class="reg">Авторизация</h2>
             <div class="inputtt">
                 <p>Логин:</p>
-                <input type="text" maxlength="15" name="username" class="inputt" placeholder="Введите вашу почту" requred>
+                <input type="text" maxlength="25" name="username" class="inputt" placeholder="Введите вашу почту" requred>
                 <p>Пароль:</p>
                 <input type="password" maxlength="15" name="password" class="inputt" placeholder="Введите ваш пароль" requred>
             </div>

@@ -7,16 +7,13 @@
             </div>
             -->
             <button class="exit-btn" name="submit" onclick="document.location.replace('/exit.php');">Выход</button>
-            <div class="header-load">
+<!--        <div class="header-load">
                 <a class="load-c" href="../load-cabs.php">Загруженность кабинетов</a>
             </div>
             <div class="headerSchedule">
                 <a class="schedule" href="">Расписание</a>
             </div>
+            -->
         </div>
     </div>
-
-
-
-
 </header>
