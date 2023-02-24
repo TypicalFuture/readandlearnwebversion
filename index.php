@@ -75,7 +75,7 @@ echo'
     <meta name="description" content="Мгок онлайн, расписание занятий ГБПОУ МГОК">
     <link rel="shortcut icon" href="icons/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/author.php">
-    <title>Добро пожаловать на сайт Read and Learn</title>
+    <title>Добро пожаловать на сайт</title>
 </head>
 <body>
     <div class="container">
@@ -83,21 +83,20 @@ echo'
             <h2 class="reg">Авторизация</h2>
             <div class="inputtt">
                 <p>Логин:</p>
-                <input type="text" maxlength="15" name="username" class="inputt" placeholder="Введите логин" requred>
+                <input type="text" maxlength="15" name="username" class="inputt" placeholder="Введите вашу почту" requred>
                 <p>Пароль:</p>
-                <input type="password" maxlength="15" name="password" class="inputt" placeholder="Введите пароль" requred>
+                <input type="password" maxlength="15" name="password" class="inputt" placeholder="Введите ваш пароль" requred>
             </div>
             <div class="outline-btn">
                 <button class="butreg" onclick="redirect();" type="submit">Войти в систему</button>
                 <div class="outer"></div>
             </div>
         </form>
-        
-    
-        
     </div>
 </body>
-</html>;'
+</html>;';
+
+require('pages/footer.php');
 ?>
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
