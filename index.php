@@ -5,6 +5,7 @@ if(isset($_SESSION['user']))
 require('php-scripts/connect.php');
 $crnt = date("N");
 $crnt -= 1;
+$connection = 0;
 //echo $_SERVER['HTTP_REFERER'];
     if(isset($_POST['username']) and isset($_POST['password']))
     {
