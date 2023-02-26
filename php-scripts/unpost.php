@@ -1,6 +1,6 @@
 <?php
 
-require_once('writter.php');
+require_once('connect.php');
 /** Получаем наш ФИО и группу из запроса */
 
 $fio = $_POST['fio'];

@@ -15,7 +15,7 @@ require('php-scripts/cath_auth.php');
         $len_usr = strlen($username);
         $len_pas = strlen($password);
         
-        if((($pos_usr === false) && ($len_usr <= 15)) &&(($pos_pas === false) && ($len_pas <= 15))){
+        if((($pos_usr === false) && ($len_usr <= 25)) &&(($pos_pas === false) && ($len_pas <= 15))){
         
             $query = "SELECT * FROM users WHERE login='$username' and password='$password'";
             $result = mysqli_query($connection, $query) or die(mysqli_error($connection));
@@ -57,9 +57,9 @@ echo'
             <h2 class="reg">Вход:</h2>
             <div class="inputtt">
                 <p>Логин:</p>
-                <input type="text" name="username" class="inputt" placeholder="Введите логин" requred>
+                <input type="text" name="username" class="textboxindex" placeholder="Введите логин" requred>
                 <p>Пароль:</p>
-                <input type="password" name="password" class="inputt" placeholder="Введите пароль" requred>
+                <input type="password" name="password" class="textboxindex" placeholder="Введите пароль" requred>
             </div>
             <div class="outline-btn">
                 <button class="butreg" type="submit">Войти</button>

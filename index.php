@@ -6,8 +6,7 @@ require('php-scripts/connect.php');
 $crnt = date("N");
 $crnt -= 1;
 //echo $_SERVER['HTTP_REFERER'];
-    if(isset($_POST['username']) and isset($_POST['password']))
-    {
+    if(isset($_POST['username']) and isset($_POST['password'])){
         $username = trim($_POST['username']);
         $password = trim($_POST['password']);
         $pos_usr = strripos($username, " ");
@@ -64,6 +63,9 @@ $crnt -= 1;
 
         }
     }
+    else{
+
+    }
 echo '
 <!DOCTYPE html>
 <html lang="ru">
@@ -73,6 +75,7 @@ echo '
     <meta name="description" content="Мгок онлайн, расписание занятий ГБПОУ МГОК">
     <link rel="shortcut icon" href="icons/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/author.css">
+    <link rel="icon" href="icons\icons8-словарь-48-_1" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <title>Добро пожаловать на сайт</title>
 </head>
@@ -88,7 +91,6 @@ echo '
             </div>
             <div class="outline-btn">
                 <button class="butreg" onclick="redirect();" type="submit">Войти в систему</button>
-                <div class="outer"></div>
             </div>
         </form>
     </div>
@@ -100,7 +102,8 @@ echo'
 </html>
 ';
 ?>
-<script type="text/javascript" >
+
+<!--<script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -112,3 +115,4 @@ echo'
    });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/71857375" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+-->

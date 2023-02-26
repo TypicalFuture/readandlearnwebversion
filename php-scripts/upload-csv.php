@@ -1,6 +1,6 @@
 <?php
 
-require('updater.php');
+require('connect.php');
 
 var_dump($_POST);
 

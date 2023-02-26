@@ -1,6 +1,6 @@
 <?php
 
-	require('writter.php');
+	require('connect.php');
 	require('../functions.php');
 
 	$res = "";
