@@ -22,7 +22,7 @@ $crnt -= 1;
                 $user = mysqli_fetch_assoc($result);
                 $_SESSION['dostup'] = 1;
                 $_SESSION['user'] = ["username" => $user['username']];
-                    header('Location: schedule.php');
+                    header('Location: pages\studentschedule.php');
             }
             else{
                 if (mysqli_num_rows($result) > 0){
@@ -82,9 +82,9 @@ echo '
             <h2 class="reg">Авторизация</h2>
             <div class="inputtt">
                 <p>Логин:</p>
-                <input type="text" maxlength="25" name="username" class="inputt" placeholder="Введите вашу почту" requred>
+                <input type="text" maxlength="25" name="username" class="textboxindex" placeholder="Введите вашу почту" requred>
                 <p>Пароль:</p>
-                <input type="password" maxlength="15" name="password" class="inputt" placeholder="Введите ваш пароль" requred>
+                <input type="password" maxlength="15" name="password" class="textboxindex" placeholder="Введите ваш пароль" requred>
             </div>
             <div class="outline-btn">
                 <button class="butreg" onclick="redirect();" type="submit">Войти в систему</button>
@@ -94,7 +94,7 @@ echo '
     </div>
 ';
 
-require('pages/footer.php');
+//require('pages/footer.php');
 echo'
     </body>
 </html>
