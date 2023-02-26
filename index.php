@@ -75,7 +75,7 @@ echo '
     <meta name="description" content="Мгок онлайн, расписание занятий ГБПОУ МГОК">
     <link rel="shortcut icon" href="icons/icon.svg" />
     <link rel="stylesheet" type="text/css" href="css/author.css">
-    <link rel="icon" href="icons\icons8-словарь-48-_1" type="image/x-icon">
+    <link rel="icon" href="icons\icons8-словарь-48-_1.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <title>Добро пожаловать на сайт</title>
 </head>
